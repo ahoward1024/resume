@@ -1,8 +1,11 @@
 # Alex Howard
 
 [ahoward1024@gmail.com](mailto:ahoward1024@gmail.com)
+
 [linkedin.com/ahoward1024](https://www.linkedin.com/in/ahoward1024)
+
 [github.com/ahoward1024](https://www.github.com/ahoward1024/)
+
 Phone number available on request
 
 # Experience
