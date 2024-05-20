@@ -6,20 +6,31 @@
 
 ## Working Experience
 
-### Conga (2019 - 2021)
+ ### Fortra (AlertLogic) (2022 - Present)
 
-#### Infrastructure
+* Worked on a Web Application Firewall product utilizing components written in Perl and Go, deployed
+  primarily on EC2 instances using customized Oracle Linux distributions.
+* Maintaned and upgraded EKS clusters from versions 1.22+ for an ETL application written in Go.
+* Rewrote the Terraform/Shell script deployment process for upgrading the EKS clusters to working
+  in parallel, bringing the upgrade process from around 6 hours to just over an hour.
+* Transitioned Terraform templates to using Kustomize for deploying infrastructure applications
+  in the EKS clusters.
+* Wrote an IP address database in Go that found IP addresses from trusted, suspicious, and 
+  untrusted sources around the internet. The IP databases were deployed to S3 buckets for other 
+  teams and products to be able to consume. 
+* Worked with a team member to create a machine learning process to add anomaly detection to a 
+  product. We evaluating using the DBSCAN and isolation forest algorithms.
+* Utilized the Go LEGO library to create a feature for provisioning of ACME certificates to 
+  protect EC2 instances with SSL certificates.
+* Built CI/CD pipelines for creating AMIs via Jenkins and Packer.
+
+### Conga (2019 - 2021)
 
 * Wrote company wide Terraform modules to make consistent deployments of Kubernetes clusters
   across multiple AWS accounts.
 * Provisioned EKS clusters ensuring high levels of cluster scalability and hardening for security.
 * Utilized Helmfile to deploy infrastructure applications into Kubernetes clusters to create
   standardized deployments for monitoring clusters using Kubernetes native tools and Datadog.
-* Deployed many sets of AWS technologies to assist application functionality including API Gateway,
-  S3, DynamoDB, RDS (Postgres), Elasticache, and more.
-
-#### CI/CD
-
 * Created GitHub Actions pipelines for  automatically packaging Docker images, running and
   deploying Terraform, running unit tests, and deploying infrastructure applications to
   Kubernetes clusters.
@@ -30,37 +41,15 @@
 * Built a Selenium testing suite to perform functional tests in the browser to ensure 
   one-to-one compatibility of application functionality.
 * Wrote integration tests to run on GitHub Actions.
-* Deprecated old TeamCity CI/CD pipelines and migrated them to GitHub Actions and Spinnaker.
-
-#### Frontend
-
-* Wrote custom webpack and Babel configurations to minify a JavaScript bundle. This reduced the
-  bundle size from over 50MB to around 12MB.
-* Created React components to replace an older user interface written in extJS.
-
-#### Backend
-
 * Wrote API services using .NET ASPNET Core framework utilizing the Mediator pattern to integrate 
   into third-party APIs from Microsoft, Google, and Dropbox.
 * Updated Java applications from being Tomcat servlet containers to SpringBoot to enable
   Dockerization to run the applications in Kubernetes.
-
-#### Accomplishments
-
-* Lead working sessions between engineering and security teams to work on organization wide 
-  security related tasks.
-* Lead morning standup meetings for my team, making sure there were no blockers for team members
-  and that throughput of work was consistent sprint to sprint.
-* Part of a team that was asked to find solutions to reducing our AWS spend between 8% to 20%
-  within a six month period. The goal was met with a reduction in spend of 23%.
-* Migrated a product from being a non-containerized application running on ElasticBeanstalk to
-  become a Dockerized application running on Kubernetes.
-* Participated in a design review team that would look at and scrutinize the design of
-  architecture, applications, and standards for the company.
+* Created React components to replace an older user interface written in extJS.
 
 ### Buzzwords:
 AWS, API Gateway, RDS, Elasticache, EKS, SSM, IAM, KMS, EC2, DynamoDB, VPC, Kubernetes, Helm,
-Kustomize, Go, Golang, React, NextJS, Datadog, Spinnaker, GitHub Actions, Git, Bash
+Kustomize, Go, React, NextJS, Datadog, Spinnaker, GitHub Actions, Git, Bash, Jenkins
 
 ## Personal Projects
 
